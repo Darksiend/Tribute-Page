@@ -12,6 +12,7 @@ Header
 
 header {
   background-color: black;
+  padding-bottom: 10px;
 }
 
 .header-container {
@@ -85,36 +86,46 @@ Main
 
 ul.posts-list li a {
   text-decoration: none;
+  font-size: 20px;
   color: black;
   display: block;
   padding: 10px;
+  border-bottom: 1px solid #000;
 }
 
 .posts-container {
-  width: 80%;
-
+  width: 65%;
+  padding-top: 20px;
   margin: auto;
-  border: 1px solid black;
-}
-
-.posts-container h1 {
-  padding-left: 10px;
-  border-bottom: 1px solid #000;
 }
 
 .posts-list {
   list-style-type: none;
 }
 
+.posts-container h1 {
+  padding-left: 10px;
+  border-bottom: 3px solid #000;
+}
+
 footer {
   background-color: black;
+  padding: 30px;
 }
 
 .socials {
   width: 80%;
+  margin: auto;
 }
 
 .social-icon {
   width: 30px;
   height: 30px;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+time {
+  font-size: 11px;
+  color: grey;
 }
